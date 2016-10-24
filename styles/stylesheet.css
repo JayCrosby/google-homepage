@@ -2,6 +2,48 @@ body {
   background-color: #FFFFFF;
 }
 
+.navbar {
+  text-align: right;
+  margin: 20px 0 -20px;
+}
+
+.menu {
+  display: inline;
+  text-align: center;
+  margin-right: 20px;
+  position: relative;
+}
+
+.menu:link {
+  text-decoration: none;
+  color: #353535;
+  font-family: Arial;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.menu:hover {
+  text-decoration: underline;
+}
+
+#login {
+  border: none;
+  width: 75px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #5CADED;
+  color: #F9F9F9;
+  border-radius: 3%;
+}
+
+#login:hover {
+  text-decoration: none;
+  box-shadow: 0 0 1px 1px #5C8FEF;
+}
+
 center {
   display: block;
 }
@@ -19,17 +61,17 @@ a, img{
   display: inline-block;
   margin: 15px 0 30px 0;
   width: 450px;
-  height: 30px;
+  height: 35px;
   font-size: 15px;
   font-family: Arial;
 
 }
 
 .button {
-  margin: 0 3px;
+  margin: 5px 3px 0 0;
   border: none;
-  width: 120px;
-  height: 40px;
+  width: 135px;
+  height: 35px;
   background-color: #f1f1f1;
   font-family: Arial;
   font-size: 13px;
@@ -39,5 +81,6 @@ a, img{
 }
 
 .button:hover {
-  box-shadow: 0 0 1px 1px #e1e1e1;
+  box-shadow: 0 0 1px 1px #b1b1b1;
+  color: #000000;
 }
