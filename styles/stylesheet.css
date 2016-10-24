@@ -2,6 +2,10 @@ body {
   background-color: #FFFFFF;
 }
 
+#container {
+  height: 100%;
+}
+
 .navbar {
   text-align: right;
   margin: 20px 0 -20px;
@@ -24,19 +28,20 @@ body {
 
 .menu:hover {
   text-decoration: underline;
+  opacity: 1;
 }
 
 #login {
   border: none;
-  width: 75px;
-  height: 35px;
+  width: 70px;
+  height: 30px;
   font-family: Arial;
   font-size: 13px;
   font-weight: bold;
   text-align: center;
-  background-color: #5CADED;
+  background-color: #3D88EC;
   color: #F9F9F9;
-  border-radius: 3%;
+  border-radius: 5%;
 }
 
 #login:hover {
@@ -52,6 +57,10 @@ a, img{
   display: block;
 }
 
+#imglink {
+  width: 610px;
+}
+
 .logo {
   display: block;
   margin-top: 100px;
@@ -64,7 +73,6 @@ a, img{
   height: 35px;
   font-size: 15px;
   font-family: Arial;
-
 }
 
 .button {
@@ -83,4 +91,43 @@ a, img{
 .button:hover {
   box-shadow: 0 0 1px 1px #b1b1b1;
   color: #000000;
+}
+
+.footer {
+  position: absolute;
+  background-color: #F2F2F2;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+}
+
+.l_footer {
+  display: inline;
+  text-align: center;
+  float: left;
+  margin-left: 15px;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+.r_footer {
+  display: inline;
+  text-align: center;
+  float: right;
+  margin-right: 15px;
+  line-height: 40px;
+  padding-left: 15px;
+}
+
+.l_footer:link, .r_footer:link {
+  text-decoration: none;
+  color: #353535;
+  font-family: Arial;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.l_footer:hover, .r_footer:hover {
+  text-decoration: underline;
+  opacity: 1;
 }
